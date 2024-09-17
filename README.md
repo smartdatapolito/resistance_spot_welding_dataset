@@ -10,3 +10,10 @@ The repository includes the following files:
 - force.csv: Contains time-series data of the force applied during each welding operation.
 
 All time-series data have been normalized to a range of [0,1] and zero-padded to 1,000 steps (the actual length varies between samples).
+
+For every file, the first two columns represent the index of the samples: Car Body and Welding Spot numbers.
+- There are 28 different car bodies
+- There are 158 different welding points
+However not all welding points have been collected for all car bodies
+
+
